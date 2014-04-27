@@ -1,0 +1,139 @@
+
+
+body {
+
+	font-size: 11px;
+
+}
+
+div#outer {
+/*
+	width:1440px;
+*/
+}
+
+td#leftPanel {
+	width:200px; 
+	vertical-align:top; 
+	font-family: 	Lucida Grande,Lucida Sans,Arial,sans-serif;
+	font-size: 1.1em;
+	border-color: #A6C9E2;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+#about {
+	height: 24px;
+	text-align: center;
+	background-color: #5C9CCC;
+	border-radius: 5px;
+	margin: 2px;
+	vertical-align: middle;
+	padding: 6px;
+}
+
+
+td#rightPanel {
+	vertical-align:top; 
+	
+
+}
+
+div#navigation {
+	overflow-y:auto; 
+	background-color: #DFEFFC; 
+	padding-left:10px;
+	border-radius: 5px;
+	margin: 2px;
+
+}
+
+div#tabs {
+	vertical-align:top; 
+/*	
+	width:1180px
+*/	
+
+}
+
+#popup label {
+	float: left;
+	width: 12em;
+	margin-right: 1em;
+	text-align: right;
+	font-weight: bold
+}
+
+#popup br {
+	clear: both
+}
+
+#popup input, #popup select {
+	margin-bottom: 1.0em;
+}
+
+.columnDelete {
+	height: 28px;
+	width: 32px
+}
+
+/* Add button */
+.addRowButton {
+	margin-top: 15px;
+	height: 28px;
+	color: #2E6E9E;
+	vertical-align: middle;
+}
+
+.dialogTable th {
+	border-color: #5C9CCC;
+	border-style: solid none solid none;
+	margin: 0px;
+	padding: 5px
+
+}
+
+.dialogTable  td  {
+	border-bottom-color: #5C9CCC;
+	text-align: center;
+	border-style: none none solid none;
+	border-bottom-width: thin;
+	margin: 0px;
+	padding: 5px	
+}
+
+.dialogTable  td  input, .dialogTable  td  select {
+	margin-bottom: 3px;
+}
+
+#ddlErrorMessage {
+	color: red;
+	font-weight: bold;
+}
+
+#ddlSuccessMessage {
+	color: green;
+	font-weight: bold;
+}
+
+.jassError {
+	background-color:#ffddcc;
+
+}
+
+.dataFilter {
+	font-size: 0.9em;
+}
+
+.paging {
+	height: 2em; 
+	width: 2em;
+}
+
+
+
+
+
+
+

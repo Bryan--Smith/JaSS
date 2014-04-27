@@ -1,0 +1,24 @@
+<img src="icon/jess.png" style="float: right; margin: 10px"/>
+<h2>Version 0.1</h2>
+<p>This version of JaSS Database Administrator will:</p>
+<ul>
+<li>List existing JET database (.mdb) files on the file system and create new JET databases.</li>
+<li>List tables and views on a JET database and create new and drop existing tables.  There is currently no ability to manage views.</li>
+<li>List columns on a JET database table and create new and drop existing columns.</li>
+<li>List indexes on a JET database table and create new and drop existing indexes.</li>
+<li>List constraints on a JET database table and create new and drop existing constraints.</li>
+<li>Query data on a JET database table.  A future release may allow a user to insert, modify or delete data.</li>
+<li>Run any arbitary SQL against a JET database.  This may be used to query data or to execute DML or DDL statements.</li>
+</ul>
+<p>A context menu is be opened by right clicking on items in the navigation panel at the left.  Choices on the context menu are used to create and drop tables, columns, indexes and constraints.</p>
+<p>There is currently no ability to manage a SQL Server database.  This may be provided in a future release.<p>
+<p><b>Prior to using the Jass Database Administrator the directory names containing the JET Database (*.mdb) files must be configured in the jass.cfg file.</b>  
+This configuration file is in the root directory of this application.</p>
+<p>This application is built using the following components.  Without these components JaSS would not be possible.<p>
+<ul>
+<li><a href="http://jquery.com/" target="_blank">jQuery</a> - Provides AJAX and the foundation for the following components.</li>
+<li><a href="https://jqueryui.com/" target"_blank">jQuery-UI</a> - Provides tabs and dialogs</li>
+<li><a href="http://handsontable.com/" target"_blank">Handsontable</a> - Provides the data grids on each of the tabs</li>
+<li><a href="http://mbraak.github.io/jqTree/" target"_blank">jqTree</a> - Provides the tree structure used for navigation</li>
+<li><a href="http://medialize.github.io/jQuery-contextMenu/" target"_blank">jQuery Context Menu</a> - Provides context menu pop-up items</li>
+</ul>

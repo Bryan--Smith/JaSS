@@ -1,0 +1,26 @@
+<div id="createForeignKeyPopup" title="Create Foreign Key" >
+
+	<label for="fkName" title="Name of new Foreign Key">Foreign Key Name:</label>
+	<input type="text" id="fkName"  title="Name of new Primary Key" /><br/>
+	
+	<label for="foreignTableName" title="Foreign Table Name">Foreign Table Name:</label>
+	<select id="foreignTableName"  title="Name of foreign table" /><br/>
+	
+
+<table class="dialogTable">
+	<tr class="dialogTableHeading">
+		<th width="50"></th>
+		<th width="150">Column Name</th>
+		<th>Foreign Column Name</th>
+	</tr>
+</table>
+
+<button id="addTableColumn" class="addRowButton" ><img src="icon/tick-icon.png" style="float:left"></img><span style="padding-left: 10px" >Add Column(s) to Constraint</span></button>
+<br/>
+	
+
+<br/>
+<span id="ddlErrorMessage"></span>
+<span id="ddlSuccessMessage"></span>
+
+</div>

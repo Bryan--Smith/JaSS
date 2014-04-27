@@ -1,0 +1,30 @@
+<div id="createColumnPopup" title="Add new column" >
+
+	<fieldset>
+		<label for="columnName">Column Name</label>
+		<input type="text" name="columnName" id="columnName" class="ui-corner-all" /><br/>
+		<label for="columnType">Column Type</label>
+		<select name="columnType" id="columnType" >
+		</select><br/>
+		<div id="varcharParam">
+			<label for="columnLength">Length</label>
+			<input type="text" name="length" id="columnLength" value="" size="3" maxLength="3" class="integer ui-corner-all"/><br/>
+		</div>
+		<div id="decimalParam">
+			<label for="columnPreceision">Precision</label>
+			<input type="text" name="preceision" id="columnPreceision" value="" size="2" maxLength="2" class="integer  ui-corner-all"/><br/>	
+			<label for="columnScale">Scale</label>
+			<input type="text" name="scale" id="columnScale" value="" size="2" maxLength="2" class="integer ui-corner-all"/><br/>	
+		</div>	
+		<label for="notNull">Not Null</label>
+		<input type="checkbox" name="notNull" id="notNull" value="true"/><br/>
+		<span id="errorMessage"></span>
+	</fieldset>
+	
+<br/>
+<span id="ddlErrorMessage"></span>
+<span id="ddlSuccessMessage"></span>
+	
+
+
+</div>
